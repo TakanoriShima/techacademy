@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  amazonlinux2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: techacacemy
+    privileged: true
+    restart: always
